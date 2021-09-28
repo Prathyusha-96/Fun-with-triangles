@@ -5,14 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Triangle Quiz</title>
+    <title>Fun With Triangles | Triangle Quiz</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 
 <body>
-    <h1>Triangle Quiz</h1>
+    <nav class="nav-bar">
+     <h1 class="nav-title">Fun With Triangles</h1>
+    <div class="nav-link">
+        <li class="list-item-inline"><a href="index.html">Is Triangle</a></li>
+        <li class="list-item-inline"><a href="quiz.html">Quiz</a></li>
+        <li class="list-item-inline"><a href="hypotenuse.html">Hypotenuse</a></li>
+        <li class="list-item-inline"><a href="area.html">Area</a></li>
+        </div>
+        </nav>
+        <div class="container">
+    <h1 id="heading">Triangle Quiz</h1>
     <form class="quiz-form">
         <div class="question-container">
-            <p>What is the third angle for the triangle where
+            <p>1. What is the third angle for the triangle where
                 angle1 = 45° and angle2 = 45°?</p>
 
             <label><input type="radio" name="question1" 
@@ -23,7 +34,7 @@
                 value="90°" />90°</label>
         </div>
         <div class="question-container">
-            <p>If triangle has an angle of 90 degrees,
+            <p>2. If triangle has an angle of 90 degrees,
                 what is it called?</p>
             <label>
                 <input type="radio" name="question2" 
@@ -38,9 +49,17 @@
                 value="right angled" />right angled
             </label>
         </div>
+        
     </form>
+
     <button id = "submit-answer-btn">Submit Answers</button>
         <div id = "output"></div>
+        </div>
+        <footer class="footer">
+            <a class="link" href="https://github.com/prathyusharam ">Github</a>
+            <a class="link" href="https://instagram.com/prathyusha__96">instagram</a>
+            <a class="link" href="https://linkedin.com/prathyusha prathyusha">linkedin</a>
+            </footer>
     
     <script src="quiz.js"></script>
 
